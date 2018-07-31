@@ -38,5 +38,4 @@ do
 done
 echo `date +"%Y年%m月%d日 %H:%M:%S"` $Next Bakup succ! >> $logFile
 
-#NODE_ENV=$backUpFolder@$backUpFileName /root/.nvm/versions/node/v8.11.3/bin/node /usr/local/work/script/upload.js
-
+#NODE_ENV=$backUpFolder@$backUpFileName /root/node/v8.11.3/bin/node /usr/local/upload.js
