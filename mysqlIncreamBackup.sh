@@ -1,10 +1,10 @@
 #!/bin/bash
 #在使用之前，请提前创建以下各个目录
-BakDir=/usr/local/work/backup/daily
+backupDir=/usr/local/work/backup/daily
 #增量备份时复制mysql-bin.00000*的目标目录，提前手动创建这个目录
-BinDir=/var/lib/mysql
+mysqlDir=/var/lib/mysql
 #mysql的数据目录
-LogFile=/usr/local/work/backup/bak.log
+logFile=/usr/local/work/backup/bak.log
 BinFile=/var/lib/mysql/mysql-bin.index
 #mysql的index文件路径，放在数据目录下的
 
@@ -23,20 +23,20 @@ do
     NextNum=`expr $NextNum + 1`
     if [ $NextNum -eq $Counter ]
     then
-        echo $base skip! >> $LogFile
+        echo $base skip! >> $logFile
     else
-        dest=$BakDir/$base
+        dest=$backupDir/$base
         if(test -e $dest)
-        #test -e用于检测目标文件是否存在，存在就写exist!到$LogFile去
+        #test -e用于检测目标文件是否存在，存在就写exist!到$logFile去
         then
-            echo $base exist! >> $LogFile
+            echo $base exist! >> $logFile
         else
-            cp $BinDir/$base $BakDir
-            echo $base copying >> $LogFile
+            cp $mysqlDir/$base $backupDir
+            echo $base copying >> $logFile
          fi
      fi
 done
-echo `date +"%Y年%m月%d日 %H:%M:%S"` $Next Bakup succ! >> $LogFile
+echo `date +"%Y年%m月%d日 %H:%M:%S"` $Next Bakup succ! >> $logFile
 
 #NODE_ENV=$backUpFolder@$backUpFileName /root/.nvm/versions/node/v8.11.3/bin/node /usr/local/work/script/upload.js
 
