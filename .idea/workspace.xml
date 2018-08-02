@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a0cbea4-499c-4088-9852-9bb2f6774da9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysqlIncreamBackup.sh" afterPath="$PROJECT_DIR$/mysqlIncreamBackup.sh" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -84,8 +83,8 @@
       <file leaf-file-name="mysqlIncreamBackup.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysqlIncreamBackup.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+            <state relative-caret-position="630">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -264,12 +263,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532918505492</updated>
       <workItem from="1532918507652" duration="2858000" />
-      <workItem from="1533224809224" duration="577000" />
+      <workItem from="1533224809224" duration="682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3435000" />
+    <option name="totallyTimeSpent" value="3540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -329,10 +328,10 @@
         <state relative-caret-position="300">
           <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
-            <marker date="1533228473000" expanded="true" signature="23715:23734" ph="..." />
-            <marker date="1533228473000" expanded="true" signature="23715:23752" ph="..." />
-            <marker date="1533228473000" expanded="true" signature="23715:23765" ph="..." />
-            <marker date="1533228473000" expanded="true" signature="23715:23780" ph="..." />
+            <marker date="1533228774000" expanded="true" signature="23037:23056" ph="..." />
+            <marker date="1533228774000" expanded="true" signature="23037:23074" ph="..." />
+            <marker date="1533228774000" expanded="true" signature="23037:23087" ph="..." />
+            <marker date="1533228774000" expanded="true" signature="23037:23102" ph="..." />
           </folding>
         </state>
       </provider>
@@ -382,10 +381,10 @@
         <state relative-caret-position="285">
           <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
-            <marker date="1533228473000" expanded="true" signature="23715:23734" ph="..." />
-            <marker date="1533228473000" expanded="true" signature="23715:23752" ph="..." />
-            <marker date="1533228473000" expanded="true" signature="23715:23765" ph="..." />
-            <marker date="1533228473000" expanded="true" signature="23715:23780" ph="..." />
+            <marker date="1533228774000" expanded="true" signature="23037:23056" ph="..." />
+            <marker date="1533228774000" expanded="true" signature="23037:23074" ph="..." />
+            <marker date="1533228774000" expanded="true" signature="23037:23087" ph="..." />
+            <marker date="1533228774000" expanded="true" signature="23037:23102" ph="..." />
           </folding>
         </state>
       </provider>
@@ -435,8 +434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysqlIncreamBackup.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        <state relative-caret-position="630">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>

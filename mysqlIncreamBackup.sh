@@ -38,5 +38,8 @@ do
 done
 echo `date +"%Y年%m月%d日 %H:%M:%S"` $Next Bakup succ! >> $logFile
 
+# 使用 nodejs 上传备份文件到 私有云
 #NODE_ENV=$backUpFolder@$backUpFileName /root/node/v8.11.3/bin/node /usr/local/upload.js
+
+# 使用 python 上传备份文件到 私有云
 #python /use/local/upload.py $backUpFolder $backUpFileName
